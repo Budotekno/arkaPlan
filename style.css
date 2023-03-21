@@ -1,0 +1,46 @@
+.yazi{
+    font-size: 20px;
+}
+
+.calisma{
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+   
+}
+
+
+
+.arkaplan{
+    margin: 0 0 0 20px;
+   
+}
+
+.diyez{
+    font-size: 30px;
+    margin: 5px 5px 0 0;
+}
+
+#renk{
+    width: 100px;
+    height: 35px;
+    font-size: 25px;
+    cursor:text;
+}
+
+.buton{
+    width: 120px;
+    height: 30px;
+    font-size: 20px;
+    margin: 0 0 0 15px;
+  
+    border-radius: 10px;
+}
+
+.buton:hover{
+    cursor: pointer;
+}
+
+input:hover{
+    cursor: pointer;
+}

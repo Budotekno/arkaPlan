@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+   
+    <title>ArkaPlan Renk </title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="main.js"></script>
+
+</head>
+<body id="arka" onload="yuklenirken()">
+
+    <div class="calisma">
+        <div class="arkaplan">
+            <input type="radio" name="renkler" id="beyaz" checked onclick="renkDegistir()"> <span class="yazi">Beyaz</span>  <br>
+            <input type="radio" name="renkler" id="kirmizi"  onclick="renkDegistir()"> <span id="k" class="yazi">Kırmızı</span>  <br>
+            <input type="radio" name="renkler" id="mavi"  onclick="renkDegistir()">  <span class="yazi">Mavi</span> <br>
+            <input type="radio" name="renkler" id="sari"  onclick="renkDegistir()"> <span class="yazi">Sari</span> <br>
+            <input type="radio" name="renkler" id="yesil"  onclick="renkDegistir()"> <span class="yazi">Yeşil</span>
+           
+        </div>
+    
+        <br><br>
+    
+        <div class="renk">
+
+            <input type="checkbox" name="" id="a" onclick="aktifPasif()" > <span class="yazi">Aktif Et</span> <br><br>
+                  
+            <span class="diyez">#</span><input type="text" id="renk" onclick="txtTikla()">
+            <br>
+            <br>
+            <input type="button" value="Değiştir"  onclick="degistir()" class="buton">
+    
+       
+    
+    
+        </div>
+
+    </div>
+
+   
+
+    
+    
+</body>
+</html>
